@@ -2,11 +2,28 @@
 <html lang="ru">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charseft=utf-8">
+        <title>Выравнивание по центру</title>
+            <style>
+                #centerLayer {
+                    position: absolute;
+                    width: 280px;
+                    height: 180px;
+                    left: 50%;
+                    top: 50%;
+                    margin-left: -150px;
+                    margin-top: -100px;
+                    background: #fc0;
+                    border: solid 1px black;
+                    padding: 10px;
+                    overflow: auto;
+                }
+            </style>
     </head>
     <body>
-        <h1>Заголовок</h1>
-        <!-- комментарий -->
-        <p>Первый абзац.</p>
-        <p>Второй</p>
+       <div id="centerLayer">
+        Будем также считать, что сила даёт большую проекцию на оси, чем газообразный
+        центр сил, что обусловлено существованием циклического интеграла у второго
+        уравнения системы уравнений малых колебаний.
+       </div>
     </body>
 </html>
