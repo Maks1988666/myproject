@@ -1,8 +1,44 @@
-p {
-    color:rgb(155, 231, 14);
-    font-family: impact;
+/* MAIN */
+body {
+    margin: 0;
 }
 
-h {
-    color: #0335be;
+.main-wrap {
+    
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* MAIN HEADER */
+.main-header {
+    background-color: #111517;
+    color: #fff;
+}
+
+
+/* TOP panel */
+.top-panel {
+    display: flex;
+    padding: 13px 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #2c2c30;
+}
+
+.top-panel__user-action {
+    display: flex;
+    align-items: center;
+}
+
+/* lang chooser */
+.lang-chooser__curent {
+    display: flex;
+    align-items: center;
+}
+
+.lang-chooser__other {
+    display: none;
 }
