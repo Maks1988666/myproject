@@ -1,21 +1,76 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
- <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>Тег COMMENT</title>
-  <style type="text/css">
-   div {
-    background: green; /* Зеленый цвет фона */
-    color: white; /* Белые буквы */
-    padding: 4px; /* Поля вокруг текста */
-   }
-   div.ie {
-    background: maroon; /* Красный цвет фона */
-   }
-  </style>
- </head>
- <body>
-   <comment><div class="ie">Этот текст не виден в браузере Internet Explorer</div></comment>
-   <div>Этот текст показывается во всех браузерах</div>
- </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="main-wrap">
+    <header class="main-header">
+      <div class="main-header__top">
+        <div class="top-panel">
+          <!-- left panel -->
+          <div class="top-panel__logo-action">
+            <a href="/" class="top-panel__logo">
+              logo
+            </a>
+            <a href="#" class="top-panel__action">
+              action
+            </a>
+          </div>
+
+          <!-- right panel -->
+          <div class="top-panel__user-action">
+            <a href="#" class="top-panel__registration">
+              registration
+            </a>
+            <a href="#" class="top-panel__login">
+              login
+            </a>
+            <div class="top-panel__lang">
+              <div class="lang-chooser">
+                <div class="lang-chooser__curent">
+                  <img src="#" alt="" class="lang-chooser__flag-ico">
+                  <div class="lang-chooser__name">
+                    en
+                  </div>
+                </div>
+                
+                <div class="lang-chooser__other">
+                  <div class="lang-chooser__other-item">
+                    <img src="#" alt="" class="lang-chooser__flag-ico">
+                    <div class="lang-chooser__name">
+                      espain
+                    </div>
+                  </div>
+                  <div class="lang-chooser__other-item">
+                    <img src="#" alt="" class="lang-chooser__flag-ico">
+                    <div class="lang-chooser__name">
+                      russia
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-header__nav">
+        nav
+      </div>
+    </header>
+
+    <main class="main-content">
+      321
+    </main>
+
+    <footer class="main-footer">
+      34
+    </footer>
+  </div>
+</body>
 </html>
