@@ -42,3 +42,7 @@ body {
 .lang-chooser__other {
     display: none;
 }
+
+.lang-chooser__other.open {
+    display: block;
+}
